@@ -33,7 +33,7 @@ def authorize():
     email = user.get('email')
 
     # Редирект на Tilda с параметрами
-    return redirect(f"https://yourtilda.tilda.ws/?name={name}&email={email}")
+    return redirect(f"http://hta.store.tilda.ws/?name={name}&email={email}")
 
 if __name__ == "__main__":
     app.run()
